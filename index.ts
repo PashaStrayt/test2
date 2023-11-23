@@ -9,3 +9,7 @@ type GetProperty<T extends object, R extends keyof T> = T[R];
 const object = { a: 0 } as const
 const SomeObj = typeof object;
 type SomePropery = GetProperty<, 'a' >
+
+type Some = 1;
+
+type SomeSecond = 2;
