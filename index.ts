@@ -11,3 +11,5 @@ const SomeObj = typeof object;
 type SomePropery = GetProperty<, 'a' >
 
 type Some = 1;
+
+type SomeSecond = 2;
